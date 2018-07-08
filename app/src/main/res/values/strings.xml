@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">UdacityMovieProject</string>
+    <string name="api_domain_popular">http://api.themoviedb.org/3/movie/popular</string>
+    <string name="api_domain_top_rated">http://api.themoviedb.org/3/movie/top_rated</string>
+    <string name="api_domain_movie_detail">http://api.themoviedb.org/3/movie/%1$d</string>
+    <string name="api_domain_movie_videos">http://api.themoviedb.org/3/movie/%1$d/videos</string>
+    <string name="api_domain_movie_reviews">http://api.themoviedb.org/3/movie/%1$d/reviews</string>
+    <string name="api_domain_images">http://image.tmdb.org/t/p/w185/</string>
+    <string name="youtube_web">http://www.youtube.com/watch?v=%1$s</string>
+    <string name="youtube_app">vnd.youtube:%1$s</string>
+    <string name="api_key_query">api_key</string>
+    <string name="api_pagination_query">page</string>
+
+    <!--
+    JSON tags string
+    -->
+    <string name="json_total_pages">total_pages</string>
+    <string name="json_movies_result">results</string>
+    <string name="json_movie_id">id</string>
+    <string name="json_movie_title">title</string>
+    <string name="json_movie_poster_path">poster_path</string>
+    <string name="json_movie_synopsis">overview</string>
+    <string name="json_movie_original_title">original_title</string>
+    <string name="json_movie_release_date">release_date</string>
+    <string name="json_movie_user_rating">vote_average</string>
+    <string name="json_movie_runtime">runtime</string>
+
+    <string name="json_video_result">@string/json_movies_result</string>
+    <string name="json_video_id">id</string>
+    <string name="json_video_key">key</string>
+    <string name="json_video_name">name</string>
+
+    <string name="json_review_result">@string/json_movies_result</string>
+    <string name="json_review_id">id</string>
+    <string name="json_review_author">author</string>
+    <string name="json_review_text">content</string>
+
+
+    <!--
+    Strings for detail layout
+    -->
+    <string name="detail_user_rating_label">User Rating </string>
+    <string name="detail_synopsis_label">Synopsis</string>
+    <string name="detail_reviews_label">Reviews</string>
+    <string name="detail_runtime">%1$d min</string>
+    <string name="no_network_connection">No network connection found!</string>
+
+    <!--
+    Strings for menu layout
+    -->
+    <string name="menu_sort_top_rated">Top Rated</string>
+    <string name="menu_sort_popular">Most Popular</string>
+    <string name="menu_show_favorites">Favorites</string>
+
+    <!--
+    String for drawable names
+    -->
+    <string name="star_not_favorite">not_favorite</string>
+    <string name="star_favorite">favorite</string>
+
+    <!--
+    Mockup strings for the only purpose to make the activity
+    -->
+    <string name="mockup_movie_title">It\'s not a movie</string>
+    <string name="mockup_release_date">12 Mar 2018</string>
+    <string name="mockup_user_rating">5.1</string>
+    <string name="mockup_runtime">120 min</string>
+    <string name="mockup_synopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="mockup_review_author">John Snow</string>
+    <string name="mockup_review_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="movie_title_holder_height">80dp</dimen>
+    <dimen name="movie_title_text_size">24sp</dimen>
+    <dimen name="movie_original_title_text_size">16sp</dimen>
+
+    <dimen name="detail_movie_poster_height">260dp</dimen>
+    <dimen name="detail_movie_poster_width">200dp</dimen>
+
+    <dimen name="detail_movie_star_height">40dp</dimen>
+    <dimen name="detail_movie_star_width">40dp</dimen>
+
+    <dimen name="detail_video_button_height">20dp</dimen>
+    <dimen name="detail_video_button_width">20dp</dimen>
+
+    <dimen name="detail_arrow_button_height">32dp</dimen>
+    <dimen name="detail_arrow_button_width">32dp</dimen>
+
+
+
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="review_text_size">12sp</dimen>
+</resources>
